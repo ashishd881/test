@@ -1,0 +1,19 @@
+.container{
+    height: 700px;
+    background-color: yellow;
+    border: 1px solid bisque;
+    display: grid;
+    grid-auto-rows: minmax(100px,auto);
+    /* auto rows karne ki wajhe se hum kitni bhi rows add kar saake hai  wo saaari roes puj jayengi*/
+    /* agar yaha pe hum ne grid template rows rakhi hoti repeat(2,1fr) toh hum ko 2 rows ke alawa baki ki rows squeez hoi ke milti  */
+    grid-template-columns: repeat(4,1fr);
+   
+
+   
+
+    
+}
+.box{
+    background-color: rgb(85, 135, 185);
+    border: 2px solid black;
+}
